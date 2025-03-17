@@ -1,0 +1,51 @@
+
+.head {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.create_post {
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 16px;
+    color: white;
+}
+
+main {
+    padding: 25px;
+    width: 700px;
+}
+
+.main_question {
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+.user {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.profile_detail {
+    font-size: 12px;
+}
+
+.profile_detail p {
+    margin: auto;
+    padding: 2px 0px;
+}
+
+.profile_detail:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.block_post {
+    background-color: white;
+    border: 2px solid #EFF0F0;
+    border-radius: 14px;
+    padding: 15px;
+}
